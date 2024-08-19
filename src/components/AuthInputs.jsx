@@ -24,8 +24,12 @@ const Input = styled.input`
   line-height: 1.5;
   background-color: #d1d5db;
   color: #374151;
+<<<<<<< HEAD
   border: ${(invalid) =>
     invalid ? "10px solid pink" : "1px solid transparent"};
+=======
+  border: 2px solid transparent;
+>>>>>>> refs/remotes/origin/main
   border-radius: 0.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 `;
