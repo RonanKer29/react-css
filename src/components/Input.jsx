@@ -7,7 +7,7 @@ const Label = styled.label`
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: ${(invalid) => (invalid ? "#f87171" : "#6b7280")};
+  color: ${(invalid) => (invalid ? "#6b7280" : "#f87171")};
 `;
 
 const Input = styled.input`
@@ -17,7 +17,7 @@ const Input = styled.input`
   background-color: #d1d5db;
   color: #374151;
   border: ${(invalid) =>
-    invalid ? "10px solid pink" : "1px solid transparent"};
+    invalid ? "1px solid black" : "1px solid transparent"};
   border-radius: 0.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 `;
